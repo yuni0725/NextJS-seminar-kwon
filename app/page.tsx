@@ -31,7 +31,7 @@ const Page = () => {
   });
 
   // Implement Here! - Call API
-  // use -> fetch("https://api.kwon.sparcs.org/article/list")
+  // use -> fetch("https://kwon.api.newbie.sparcs.net/")
   // use type Article_API_Response
 
   const handleOptionChange = (option: keyof ArticleListUiOptions) => {
