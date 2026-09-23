@@ -9,13 +9,14 @@ import badIcon from "./assets/thumbs-down.svg";
 
 // Note : 게시글 정보 가운데 점은 '·' 을 복붙해서 사용하세요. 특수문자 입니다.
 
+/* fix this type with Article type */
 type ArticleListProps = {
-  showRank: boolean;
-  showBoard: boolean;
-  showWriter: boolean;
-  showHit: boolean;
-  showTimeAgo: boolean;
-  data: Article[];
+  showRank: any;
+  showBoard: any;
+  showWriter: any;
+  showHit: any;
+  showTimeAgo: any;
+  data: any[];
 };
 
 const ArticleList = ({
